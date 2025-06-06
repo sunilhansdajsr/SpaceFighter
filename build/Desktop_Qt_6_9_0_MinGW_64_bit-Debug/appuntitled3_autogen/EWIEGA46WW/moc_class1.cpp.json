@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "class1",
+            "lineNumber": 6,
+            "object": true,
+            "qualifiedClassName": "class1",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "printIt",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "class1.h",
+    "outputRevision": 69
+}

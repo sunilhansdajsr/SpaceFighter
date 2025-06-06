@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "class2",
+            "lineNumber": 7,
+            "object": true,
+            "qualifiedClassName": "class2",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "class2.h",
+    "outputRevision": 69
+}

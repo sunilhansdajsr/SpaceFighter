@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/enemy">
+        <file>enemy</file>
+        <file>forgames1</file>
+        <file>forEnemy3.png</file>
+        <file>GEnemy 1.png</file>
+        <file>GEnemy 2.png</file>
+        <file>GEnemy 3.png</file>
+        <file>GEnemy 4.png</file>
+    </qresource>
+    <qresource prefix="/playr">
+        <file>forEnemy3.png</file>
+        <file>player1.png</file>
+        <file>pngtree-electric-red-thunderbolt-with-fire-effects-png-image_15357957.png</file>
+        <file>png-transparent-flame-fire-drawing-flame-orange-fictional-character-combustion.png</file>
+    </qresource>
+    <qresource prefix="/bullet">
+        <file>pngtree-electric-red-thunderbolt-with-fire-effects-png-image_15357957.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>SpaceGames-K7zKD.otf</file>
+    </qresource>
+</RCC>

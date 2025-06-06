@@ -1,0 +1,225 @@
+{
+    "classes": [
+        {
+            "className": "Controller",
+            "lineNumber": 13,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 11,
+                    "name": "moveLeft",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "name": "moveRight",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "name": "applyThrust",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "name": "fireBullet",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 15,
+                    "name": "createEnemies",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 16,
+                    "name": "stopMovement",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 17,
+                    "name": "showScore",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 18,
+                    "name": "restartGame",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "x",
+                    "notify": "xChanged",
+                    "read": "x",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setX"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "y",
+                    "notify": "yChanged",
+                    "read": "y",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setY"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "bullets",
+                    "notify": "bulletChanged",
+                    "read": "bullets",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QQmlListProperty<Bullet>",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "enemies",
+                    "notify": "enemyChanged",
+                    "read": "enemies",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QQmlListProperty<Enemy>",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "score",
+                    "notify": "scoreChanged",
+                    "read": "score",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setScore"
+                }
+            ],
+            "qualifiedClassName": "Controller",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "xChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "yChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "bulletChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "enemyChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "scoreChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "gameOver",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "updateState",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bullet",
+                            "type": "Bullet*"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "deleteBullet",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enemy",
+                            "type": "Enemy*"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "deleteEnemy",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "checkCollison",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "updateMovement",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Controller.h",
+    "outputRevision": 69
+}
